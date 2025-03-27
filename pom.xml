@@ -116,7 +116,7 @@
 						<configuration>
 							<excludes>
 								<exclude>**/*BackendApplication.class</exclude>
-								<exclude>**/eci/escuelaing/edu/co/controllers/**</exclude>
+								<exclude>**/is/escuelaing/edu/co/controllers/**</exclude>
 							</excludes>
 							<rules>
 								<rule>
