@@ -27,7 +27,7 @@
 		<url/>
 	</scm>
 	<properties>
-		<java.version>21</java.version>
+		<java.version>17</java.version>
 		<maven.compiler.target>1.8</maven.compiler.target>
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<sonar.projectKey>library</sonar.projectKey>
@@ -104,7 +104,7 @@
 							<excludes>
 								<exclude>/configurators/</exclude>
 								<exclude>**/*BackendApplication.class</exclude>
-								<exclude>**/eci/escuelaing/edu/co/controllers/*</exclude>
+								<exclude>**/is/escuelaing/edu/co/controllers/*</exclude>
 							</excludes>
 						</configuration>
 					</execution>
@@ -125,7 +125,7 @@
 										<limit>
 											<counter>CLASS</counter>
 											<value>COVEREDRATIO</value>
-											<minimum>0.00</minimum>
+											<minimum>0.80</minimum>
 										</limit>
 									</limits>
 								</rule>
